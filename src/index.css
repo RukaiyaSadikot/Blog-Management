@@ -1,0 +1,120 @@
+:root {
+  --brand: #1f2937;
+  --brand-light: #374151;
+  --accent: #e11d48;
+  --accent-dark: #be123c;
+  --bg: #f9fafb;
+}
+body {
+  background: var(--bg);
+  font-family: 'Inter', sans-serif;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Navbar */
+.navbar-masthead {
+  background: var(--brand);
+  border-bottom: 4px solid var(--accent);
+}
+.navbar-masthead .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.navbar-masthead .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  margin-left: 0.75rem;
+  border-bottom: 2px solid transparent;
+}
+.navbar-masthead .nav-link:hover,
+.navbar-masthead .nav-link.active {
+  color: #fff;
+  border-bottom-color: var(--accent);
+}
+
+/* Buttons */
+.btn-accent {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.btn-accent:hover {
+  background: #c9431f;
+  border-color: #c9431f;
+  color: #fff;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--brand), #3a4a7a);
+  color: #fff;
+  border-radius: 16px;
+  padding: 4rem 1.5rem;
+}
+
+/* Blog cards */
+.blog-card {
+  border: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+.blog-card .card-title {
+  font-weight: 700;
+}
+
+/* Dashboard stat cards */
+.stat-card {
+  border: 0;
+  border-left: 6px solid var(--accent);
+  border-radius: 12px;
+}
+.stat-card .stat-icon {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+/* Footer */
+.footer-masthead {
+  background: var(--brand);
+  color: rgba(255, 255, 255, 0.8);
+  border-top: 4px solid var(--accent);
+}
+main.container { padding-top: 2rem; padding-bottom: 3rem; }
+
+/* Page headings with a short accent underline */
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+.section-head h2 { margin: 0; }
+.section-head h2::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--accent);
+  margin-top: 8px;
+}
+
+/* White containers that group controls and tables */
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Left-aligned hero */
+.hero { padding: 3rem 2rem; text-align: left; }
+.hero img { border-radius: 12px; width: 100%; height: 240px; object-fit: cover; }
