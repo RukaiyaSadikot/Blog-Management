@@ -638,8 +638,8 @@ npm run dev
 
 |                  |                                     |
 | ---------------- | ----------------------------------- |
-| 🔗 Live Demo     | [Add your live demo link here](#)   |
-| 💻 Project Video | [Add your project video link here](#) |
+| 🔗 Live Demo     | [Add your live demo link here](https://gentle-marigold-f161d1.netlify.app/)   |
+| 💻 Project Video | [Add your project video link here](https://drive.google.com/file/d/1n0wQbV9XvND3Id-TNrKcpZ2OCkz5j0AJ/view?usp=sharing) |
 
 ---
 
